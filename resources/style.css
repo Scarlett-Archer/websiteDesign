@@ -1,0 +1,156 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Abril Fatface', Georgia, serif;
+    text-align: center;
+}
+
+/* Nav section */
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #EA7E95;
+}
+
+nav li a:hover {
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+h2.main {
+    color: #EA7E95;
+}
+
+/* Flexbox Containers */
+
+.container {
+    display: flex;
+    border: 1px dotted rgb(159, 156, 156);
+    border-radius: 10px;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: whitesmoke;
+   /* align-items: center;*/
+}
+
+.container-item {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    width: 250px;
+   background-color: white;
+}
+
+.container-item-1, .container-item-2, .container-item-3 {
+    min-height: 100px;
+     text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+/* Color section */
+
+div #steelblue {
+    background-color: #4F93CD;
+}
+
+div #thistle {
+    background-color: #D8BFD7;
+}
+
+div #darkcyan {
+    background-color: #028B8B;
+}
+
+div #lightpink {
+    background-color: #FFB6C1;
+}
+
+/* Font section */
+
+/* Abril fontface */
+
+#af-normal {
+    font-weight: normal;
+}
+
+#af-italic {
+    font-weight: normal;
+    font-style: italic;
+}
+
+#af-bold {
+    font-weight: bold;
+}
+
+/* Bad Script */
+.bs-font {
+    font-family: 'Bad Script', Georgia, serif;
+    
+}
+
+#bs-normal {
+    font-weight: normal;
+}
+
+#bs-italic {
+    font-weight: normal;
+    font-style: italic;
+}
+
+#bs-bold {
+    font-weight: bold;
+}
+
+/* Creepster */
+.cr-font {
+    font-family: 'creepster', Georgia, serif;
+}
+
+#cr-normal {
+    font-weight: normal;
+}
+
+#cr-italic {
+    font-weight: normal;
+    font-style: italic;
+}
+
+#cr-bold {
+    font-weight: bold;
+}
+
+/* Text Styles */
+
+.creepster-heading {
+    font-family: 'creepster', Georgia, serif;
+}
+
+.bs-subheading {
+    font-family: 'Bad Script', Georgia, serif;
+}
+
+/* Footer */
+ footer {
+    color: #EA7E95;
+    opacity: 0.75;
+    margin: 10px;
+ }
